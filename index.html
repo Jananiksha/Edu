@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden School of Intellignce</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">About Us</a>
+        <a href="#home">Services</a>
+        <a href="#home">We Offer</a>
+        <a href="#home">Tie Up</a>
+        <a href="#home">Contact Us</a>
+        <a href="#home">Application</a>
+    </div>
+
+    <div class="welcome">
+        <h1>Nilgiri Valley School</h1>
+        <div class="page-break"></div>
+    </div>
+    <h2>Welcome to <br> Nilgiri Valley School </h2>
+    <div class="image">
+        <div class="top">
+            <p>Nilgiri Valley School is the first of its kind in Nilgiris like a few of the best schools in Tamil Nadu, founded by renowned academicians and experienced, talented team of teachers of different subjects. It is started to give the best quality education to the children from LKG to XII. It is situated at the foothills of Western ghats, away from the hazzles of the busy city life. The serene atmosphere and the ambience in the 9 acres of land with the state-of-art infrastructure motivate the students to focus their attention on their studies without any deviation.</p>
+            <img src="./school.jpg ">
+        </div>
+    </div>
+    <h3>Contact here for Admission!!</h3>
+    <div class="form">
+        <h3>Form Validation</h3>
+        <form id="form1" onsubmit="return ValidateForm()">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <span id="nameError" class="error"></span>
+            <br>
+
+            <label for="Gender">Gender: </label>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="femail"name='gender' value="female">Female
+            <span id="genderError" class="error"></span>
+            <br>
+
+            <label for="languages">Languages Known:</label>
+            <input type="checkbox" id="english" name="languages" value="english">English
+            <input type="checkbox" id="tamil" name="languages" value="tamil">Tamil
+            <input type="checkbox" id="hindi" name="languages" value="hindi">Hindi
+            <br>
+
+            <label for="country">Country:</label>
+            <select id="Country" name="country">
+                <option value="">Select Country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+            </select>
+            <span id="nameError" class="error"></span>
+            <br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+    
+
+    
+
+    
+        
+
+       
+        
+    
+</body>
+</html>
